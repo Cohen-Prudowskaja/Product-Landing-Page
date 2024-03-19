@@ -3,19 +3,43 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Product Landing Page</title>
+    <title>The Bailout Bucket</title>
     <link rel="stylesheet" href="./styles.css"/>
   </head>
 
   <body>
 <!--
 1. Your product landing page should have a header element with a corresponding id="header"
--->
+2. You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+  -->
     <header id="header">
-
+              <div class="logo">
+          <img
+            id="header-img"
+            src=""
+            alt="idea-man-logo"
+          />
+        </div>
+<!--
+3. Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+4. You can see at least three clickable elements inside the nav element, each with the class nav-link
+5. When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
+  -->
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
     </header>
     <main>
-      
+      <section id="features">
+      </section>
+      <section id="how-it-works">
+      </section>
+      <section id="pricing">
+      </section>
     </main>
   </body>
 </html>
