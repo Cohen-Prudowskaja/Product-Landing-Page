@@ -1,0 +1,35 @@
+/*
+13. The navbar should always be at the top of the viewport
+14. Your product landing page should have at least one media query
+15. Your product landing page should utilize CSS flexbox at least once
+*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+  }
+  
+  body {
+    padding-top: 150px;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
